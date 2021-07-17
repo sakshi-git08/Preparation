@@ -17,7 +17,7 @@ public class isBalanced {
         // 'open parentheses' - { [ (
         // 'close parentheses' - } ]
         // We will use stack to monitor last 'open parentheses'
-        Stack<Character> st = new Stack<>(); // stack is LIFO (Last In, First Out) data structure
+        Stack<Character> st = new Stack<Character>(); // stack is LIFO (Last In, First Out) data structure
 
         // loop over input string
         for (char ch : str.toCharArray()) {

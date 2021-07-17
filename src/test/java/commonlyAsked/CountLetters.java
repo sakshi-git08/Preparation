@@ -17,7 +17,7 @@ public class CountLetters {
 
     public static Map<Character, Integer> countLetters(String str) {
         // if order is matter, we can use LinkedHashMap instead
-        Map<Character, Integer> letters = new HashMap<>();
+        Map<Character, Integer> letters = new HashMap<Character, Integer>();
 
         for(int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
