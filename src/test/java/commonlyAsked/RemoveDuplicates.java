@@ -35,7 +35,7 @@ public class RemoveDuplicates {
 
         // convert str to char[]
         char[] letters = str.toCharArray();
-        Set<Character> set = new LinkedHashSet<>();
+        Set<Character> set = new LinkedHashSet<Character>();
 
         // add each letter to set. It will remove duplicates - Set does not allow duplicates
         for(char ch : letters) {
